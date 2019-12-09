@@ -1,5 +1,5 @@
 PKG_NAME := R-spam
-URL = https://cran.r-project.org/src/contrib/spam_2.4-0.tar.gz
+URL = https://cran.r-project.org/src/contrib/spam_2.5-0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
