@@ -4,7 +4,7 @@
 #
 Name     : R-spam
 Version  : 2.5.1
-Release  : 38
+Release  : 39
 URL      : https://cran.r-project.org/src/contrib/spam_2.5-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spam_2.5-1.tar.gz
 Summary  : SPArse Matrix
@@ -34,21 +34,22 @@ lib components for the R-spam package.
 
 %prep
 %setup -q -c -n spam
+cd %{_builddir}/spam
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1576534414
+export SOURCE_DATE_EPOCH=1589571437
 
 %install
-export SOURCE_DATE_EPOCH=1576534414
+export SOURCE_DATE_EPOCH=1589571437
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
+export FCFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
+export FFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
 export CXXFLAGS="$CXXFLAGS -O3 -flto -fno-semantic-interposition "
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
