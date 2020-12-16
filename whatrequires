@@ -1,4 +1,2 @@
 # This file contains recursive sources that require this package
-R-RandomFields
-R-RandomFieldsUtils
 R-fields
