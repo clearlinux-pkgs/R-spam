@@ -4,7 +4,7 @@
 #
 Name     : R-spam
 Version  : 2.8.0
-Release  : 56
+Release  : 57
 URL      : https://cran.r-project.org/src/contrib/spam_2.8-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spam_2.8-0.tar.gz
 Summary  : SPArse Matrix
