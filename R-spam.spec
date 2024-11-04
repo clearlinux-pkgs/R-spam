@@ -7,7 +7,7 @@
 #
 Name     : R-spam
 Version  : 2.11.0
-Release  : 69
+Release  : 70
 URL      : https://cran.r-project.org/src/contrib/spam_2.11-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spam_2.11-0.tar.gz
 Summary  : SPArse Matrix
